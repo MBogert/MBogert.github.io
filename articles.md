@@ -6,7 +6,7 @@ permalink: /articles/
 
 Sometimes I write about articles about the professional world! Here's the links if you want a quick read.
 
-<ul>
+<ul line-style-type="none">
 	<li>
 		<img src="resources/SubaruLogo.png" height="312" width="312"></img>
 		<a href="https://www.linkedin.com/pulse/yes-nos-subarus-what-sales-can-learn-consent-practices-matthew-bogert">Yes'​, No's, and Subaru's: What Sales Can Learn About Consent Practices</a>
