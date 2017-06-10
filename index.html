@@ -7,22 +7,46 @@ layout: default
   <h1>Welcome</h1>
 
 <div class="slideshow-container">
-  <div class="mySlides fade">
+  <div class="mySlides">
     <div class="numbertext">1 / 3</div>
     <img src="/resources/NaturePics/NaturePic1.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
+    <!-- <div class="text">Caption Text</div> -->
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides">
     <div class="numbertext">2 / 3</div>
-    <img src="NaturePic2.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
+    <img src="/resources/NaturePics/NaturePic2.jpg" style="width:100%">
+    <!-- <div class="text">Caption Two</div> -->
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides">
     <div class="numbertext">3 / 3</div>
-    <img src="NaturePic3.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
+    <img src="/resources/NaturePics/NaturePic3.jpg" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 3</div>
+    <img src="/resources/NaturePics/NaturePic4.jpg" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 3</div>
+    <img src="/resources/NaturePics/NaturePic5.jpg" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+  </div>    
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 3</div>
+    <img src="/resources/NaturePics/NaturePic6.jpg" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 3</div>
+    <img src="/resources/NaturePics/NaturePic7.jpg" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
   </div>
 
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -131,30 +155,18 @@ layout: default
 </style>
 
 <script>
-var slideIndex = 1;
-showSlides(slideIndex);
+var slideIndex = 0;
+showSlides();
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block"; 
-  dots[slideIndex-1].className += " active";
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 </script>
