@@ -4,10 +4,11 @@ title: Past Projects
 permalink: /projects/
 ---
 
+<ul style="list-style: none;">
 	<li>
 		<h2>Musuem Climate Monitoring System</h2>
 		<img src="/resources/ProjectPics/Museum/Museum.jpg" height="336" width="3600" class="rotateimg180">
-<ul style="list-style: none;">
+
 
 		<p>
 			As a thesis project, myself and a group of three other students developed a full climate monitoring system for The Lelooska Foundation, a native american cultural center in Vancouver, WA <a href="http://lelooska.org/">(See Site)</a>.
