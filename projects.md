@@ -16,10 +16,12 @@ permalink: /projects/
 		<p> 
 			We constructed sensors that measured humidity and temperature in various cases.
 		</p>
-		<div class ="inline">
+		<img src="/resources/ProjectPics/Museum/SensorBreadBoard.jpg" height="540" width="960">
+		<img src="/resources/ProjectPics/Museum/SensorCase.jpg" height="540" width="960">
+		<!-- <div class ="inline">
 			<div class="inlinePic"><img src="/resources/ProjectPics/Museum/SensorBreadBoard.jpg" height="540" width="960"></div>
 			<div class="inlinePic"><img src="/resources/ProjectPics/Museum/SensorCase.jpg" height="540" width="960"></div>
-		</div>
+		</div> -->
 		<p>
 		 The sensors communicate to a secure website that we designed for Foundation staff to access and use the data collected. 
 		</p>
