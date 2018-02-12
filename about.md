@@ -5,9 +5,9 @@ permalink: /about/
 ---
 
 <h2>I take life pretty seriously...</h2>
-<img src="/resources/AboutPics/ShavedEdited.png"><br/>
+<img src="/resources/AboutPics/MainPic.png"><br/>
 
-<p>Hey there, I'm a software developer, musician, dancer, and lover of nature. I was born and raised in Bremerton, Washington, attended the University of Puget Sound in Tacoma, and am now in Dublin, California. I strive to be an ally for equity in the tech industry, and hope that one day diversity will be a moot subject, because it has become the status quo. However, the case of equity goes beyond the office as well. We are in an age of rapid technological expansion, and can use computers in an unprecedented number of problems and situations. It's upon us to instigate the application of technology to solve the problems of our world and help people live better lives.</p>
+<p>Hey there, I'm a software developer, musician, dancer, and lover of nature. I was born and raised in Bremerton, Washington, attended the University of Puget Sound in Tacoma, and am now in Dublin, California. I'm currently employed at Workday as an application developer, providing solutions for companies and their talent engagement and analytics.</p>
 <br/>
 <img src="/resources/AboutPics/BeardUnedited.jpg">
 <br/>

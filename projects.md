@@ -16,6 +16,7 @@ permalink: /projects/
 		<p> 
 			We constructed sensors that measured humidity and temperature in various cases.
 		</p>
+		
 		<img src="/resources/ProjectPics/Museum/SensorBreadBoard.jpg" height="540" width="960">
 		<img src="/resources/ProjectPics/Museum/SensorCase.jpg" height="540" width="960">
 
