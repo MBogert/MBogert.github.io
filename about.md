@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <h2>I take life pretty seriously...</h2>
-<img src="/resources/AboutPics/MainPic.png"><br/>
+<img src="/resources/AboutPics/MainPic.jpg"><br/>
 
 <p>Hey there, I'm a software developer, musician, dancer, and lover of nature. I was born and raised in Bremerton, Washington, attended the University of Puget Sound in Tacoma, and am now in Dublin, California. I'm currently employed at Workday as an application developer, providing solutions for companies and their talent engagement and analytics.</p>
 <br/>
